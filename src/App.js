@@ -8,6 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import TextLoop from "react-text-loop";
 import Typist from "react-typist";
+import foto from "./Orang.png";
 
 function App() {
   const config_cursor = {
@@ -26,7 +27,7 @@ function App() {
         <div className="dark-mode"></div>
         <div className="card_body">
           <div className="profile text-center ">
-            <img src="/Orang.png" className="avatar" alt="" />
+            <img src={foto} className="avatar" alt="" />
             <div className="bg_content rd_12 p_8">
               <h1>Misbakhul Munir</h1>
               <p className="mt-16">Programmer</p>
